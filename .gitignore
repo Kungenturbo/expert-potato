@@ -18,3 +18,62 @@ vqmod/logs/*
 vqmod/vqcache/*
 vqmod/checked.cache
 vqmod/mods.cache
+
+# Security - DNS, Domain, Proxy & Network Monitoring
+# DNS configuration and zone files
+*.dns
+*.zone
+dns_*.conf
+/dns/
+/dnsmasq*
+
+# Domain configuration
+*.domain
+*.domains
+domain_*.conf
+/domains/
+
+# Proxy configuration and logs
+*.proxy
+proxy_*.conf
+proxy_*.log
+/proxy/
+/proxies/
+proxy_cache/
+
+# Network monitoring and packet captures
+*.pcap
+*.pcapng
+*.cap
+network_*.log
+/network_logs/
+/captures/
+
+# WAF and security logs
+waf_*.log
+security_*.log
+firewall_*.log
+/waf_logs/
+/security_logs/
+
+# SSL/TLS certificates and keys
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+/certificates/
+/ssl/
+/certs/
+
+# VPN and tunnel configuration
+*.ovpn
+*.vpn
+vpn_*.conf
+/vpn/
+
+# DDoS/Attack mitigation configs
+ddos_*.conf
+rate_limit_*.conf
+/ddos_protection/
